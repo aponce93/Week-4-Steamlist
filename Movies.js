@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Movies.css";
 
-const TMDB_API_KEY = "b7bb72475a54092fddf140269ab0fa6c"; 
+const TMDB_API_KEY = "Removing key for security reasons"; 
 const TMDB_API_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${TMDB_API_KEY}`;
 
 function Movies() {
